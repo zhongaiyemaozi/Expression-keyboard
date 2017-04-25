@@ -1,0 +1,15 @@
+PODS:
+  - SnapKit (3.2.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SnapKit
+  - YYModel
+
+SPEC CHECKSUMS:
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: d01e7857c4f790dabb3ac0029863826e98ffa30e
+
+COCOAPODS: 1.2.1.beta.1

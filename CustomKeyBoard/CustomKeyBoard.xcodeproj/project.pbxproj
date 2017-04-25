@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B6B40D1EAEE817009139C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B40C1EAEE817009139C6 /* AppDelegate.swift */; };
+		91B6B40F1EAEE817009139C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B40E1EAEE817009139C6 /* ViewController.swift */; };
+		91B6B4121EAEE817009139C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B6B4101EAEE817009139C6 /* Main.storyboard */; };
+		91B6B4141EAEE817009139C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B6B4131EAEE817009139C6 /* Assets.xcassets */; };
+		91B6B4171EAEE817009139C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B6B4151EAEE817009139C6 /* LaunchScreen.storyboard */; };
+		91B6B4291EAEE9C5009139C6 /* CLCustomKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4281EAEE9C5009139C6 /* CLCustomKeyBoard.swift */; };
+		91B6B42B1EAEE9F1009139C6 /* CLPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B42A1EAEE9F1009139C6 /* CLPageControl.swift */; };
+		91B6B42D1EAEEA17009139C6 /* CLKeyBoardCollertionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B42C1EAEEA17009139C6 /* CLKeyBoardCollertionView.swift */; };
+		91B6B42F1EAEEA39009139C6 /* CLCustomKeyBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B42E1EAEEA39009139C6 /* CLCustomKeyBoardCell.swift */; };
+		91B6B4311EAEEA5E009139C6 /* CLKeyBoardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4301EAEEA5E009139C6 /* CLKeyBoardFlowLayout.swift */; };
+		91B6B4331EAEEA82009139C6 /* CLKeyBoardToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4321EAEEA82009139C6 /* CLKeyBoardToolBar.swift */; };
+		91B6B4351EAEEAAA009139C6 /* CLTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4341EAEEAAA009139C6 /* CLTextView.swift */; };
+		91B6B43A1EAEF2C5009139C6 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4391EAEF2C5009139C6 /* NSString+Emoji.m */; };
+		91B6B43F1EAEF524009139C6 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B43C1EAEF524009139C6 /* UIButton+Extensions.swift */; };
+		91B6B4401EAEF524009139C6 /* UILable+Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B43D1EAEF524009139C6 /* UILable+Emotion.swift */; };
+		91B6B4411EAEF524009139C6 /* UILable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B43E1EAEF524009139C6 /* UILable+Extensions.swift */; };
+		91B6B4431EAEF57F009139C6 /* FFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4421EAEF57F009139C6 /* FFLabel.swift */; };
+		91B6B4461EAEFAE6009139C6 /* CLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4441EAEFAE6009139C6 /* CLCommon.swift */; };
+		91B6B4471EAEFAE6009139C6 /* CLEmotionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4451EAEFAE6009139C6 /* CLEmotionTool.swift */; };
+		91B6B44B1EAEFAF0009139C6 /* CLEmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6B4491EAEFAF0009139C6 /* CLEmotionModel.swift */; };
+		91B6B44C1EAEFAF0009139C6 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91B6B44A1EAEFAF0009139C6 /* Emoticons.bundle */; };
+		D54A96E9C1DB3F3C9D434131 /* Pods_CustomKeyBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362BFEF098E8E355D0AB5798 /* Pods_CustomKeyBoard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34F27B190A377A3AED0E6CC5 /* Pods-CustomKeyBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomKeyBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomKeyBoard/Pods-CustomKeyBoard.release.xcconfig"; sourceTree = "<group>"; };
+		362BFEF098E8E355D0AB5798 /* Pods_CustomKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B6B4091EAEE817009139C6 /* CustomKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B6B40C1EAEE817009139C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91B6B40E1EAEE817009139C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91B6B4111EAEE817009139C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91B6B4131EAEE817009139C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91B6B4161EAEE817009139C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91B6B4181EAEE817009139C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B6B4281EAEE9C5009139C6 /* CLCustomKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLCustomKeyBoard.swift; sourceTree = "<group>"; };
+		91B6B42A1EAEE9F1009139C6 /* CLPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLPageControl.swift; sourceTree = "<group>"; };
+		91B6B42C1EAEEA17009139C6 /* CLKeyBoardCollertionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKeyBoardCollertionView.swift; sourceTree = "<group>"; };
+		91B6B42E1EAEEA39009139C6 /* CLCustomKeyBoardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLCustomKeyBoardCell.swift; sourceTree = "<group>"; };
+		91B6B4301EAEEA5E009139C6 /* CLKeyBoardFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKeyBoardFlowLayout.swift; sourceTree = "<group>"; };
+		91B6B4321EAEEA82009139C6 /* CLKeyBoardToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLKeyBoardToolBar.swift; sourceTree = "<group>"; };
+		91B6B4341EAEEAAA009139C6 /* CLTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTextView.swift; sourceTree = "<group>"; };
+		91B6B4381EAEF2C5009139C6 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		91B6B4391EAEF2C5009139C6 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		91B6B43B1EAEF2EC009139C6 /* Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.h; sourceTree = "<group>"; };
+		91B6B43C1EAEF524009139C6 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		91B6B43D1EAEF524009139C6 /* UILable+Emotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILable+Emotion.swift"; sourceTree = "<group>"; };
+		91B6B43E1EAEF524009139C6 /* UILable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILable+Extensions.swift"; sourceTree = "<group>"; };
+		91B6B4421EAEF57F009139C6 /* FFLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLabel.swift; sourceTree = "<group>"; };
+		91B6B4441EAEFAE6009139C6 /* CLCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLCommon.swift; sourceTree = "<group>"; };
+		91B6B4451EAEFAE6009139C6 /* CLEmotionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLEmotionTool.swift; sourceTree = "<group>"; };
+		91B6B4491EAEFAF0009139C6 /* CLEmotionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLEmotionModel.swift; sourceTree = "<group>"; };
+		91B6B44A1EAEFAF0009139C6 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		E27AD35DD45506AA639BFF49 /* Pods-CustomKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomKeyBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomKeyBoard/Pods-CustomKeyBoard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B6B4061EAEE817009139C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54A96E9C1DB3F3C9D434131 /* Pods_CustomKeyBoard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46148136EE0F506CE107B310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA478960E3D00A0C0ECACA9D /* Frameworks */,
+				E27AD35DD45506AA639BFF49 /* Pods-CustomKeyBoard.debug.xcconfig */,
+				34F27B190A377A3AED0E6CC5 /* Pods-CustomKeyBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91B6B4001EAEE817009139C6 = {
+			isa = PBXGroup;
+			children = (
+				91B6B40B1EAEE817009139C6 /* CustomKeyBoard */,
+				91B6B40A1EAEE817009139C6 /* Products */,
+				46148136EE0F506CE107B310 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		91B6B40A1EAEE817009139C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B4091EAEE817009139C6 /* CustomKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B6B40B1EAEE817009139C6 /* CustomKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B41E1EAEE87A009139C6 /* Emoticon */,
+				91B6B40C1EAEE817009139C6 /* AppDelegate.swift */,
+				91B6B40E1EAEE817009139C6 /* ViewController.swift */,
+				91B6B43B1EAEF2EC009139C6 /* Prefix.h */,
+				91B6B4101EAEE817009139C6 /* Main.storyboard */,
+				91B6B4131EAEE817009139C6 /* Assets.xcassets */,
+				91B6B4151EAEE817009139C6 /* LaunchScreen.storyboard */,
+				91B6B4181EAEE817009139C6 /* Info.plist */,
+			);
+			path = CustomKeyBoard;
+			sourceTree = "<group>";
+		};
+		91B6B41E1EAEE87A009139C6 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B4481EAEFAF0009139C6 /* Model */,
+				91B6B4361EAEF2A6009139C6 /* Tool */,
+				91B6B4271EAEE99C009139C6 /* View */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		91B6B4271EAEE99C009139C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B4281EAEE9C5009139C6 /* CLCustomKeyBoard.swift */,
+				91B6B42A1EAEE9F1009139C6 /* CLPageControl.swift */,
+				91B6B42C1EAEEA17009139C6 /* CLKeyBoardCollertionView.swift */,
+				91B6B42E1EAEEA39009139C6 /* CLCustomKeyBoardCell.swift */,
+				91B6B4301EAEEA5E009139C6 /* CLKeyBoardFlowLayout.swift */,
+				91B6B4321EAEEA82009139C6 /* CLKeyBoardToolBar.swift */,
+				91B6B4341EAEEAAA009139C6 /* CLTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91B6B4361EAEF2A6009139C6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B4441EAEFAE6009139C6 /* CLCommon.swift */,
+				91B6B4451EAEFAE6009139C6 /* CLEmotionTool.swift */,
+				91B6B43C1EAEF524009139C6 /* UIButton+Extensions.swift */,
+				91B6B4421EAEF57F009139C6 /* FFLabel.swift */,
+				91B6B43D1EAEF524009139C6 /* UILable+Emotion.swift */,
+				91B6B43E1EAEF524009139C6 /* UILable+Extensions.swift */,
+				91B6B4371EAEF2C5009139C6 /* NSStringEmoji */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		91B6B4371EAEF2C5009139C6 /* NSStringEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B4381EAEF2C5009139C6 /* NSString+Emoji.h */,
+				91B6B4391EAEF2C5009139C6 /* NSString+Emoji.m */,
+			);
+			path = NSStringEmoji;
+			sourceTree = "<group>";
+		};
+		91B6B4481EAEFAF0009139C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91B6B4491EAEFAF0009139C6 /* CLEmotionModel.swift */,
+				91B6B44A1EAEFAF0009139C6 /* Emoticons.bundle */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA478960E3D00A0C0ECACA9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				362BFEF098E8E355D0AB5798 /* Pods_CustomKeyBoard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B6B4081EAEE817009139C6 /* CustomKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B6B41B1EAEE817009139C6 /* Build configuration list for PBXNativeTarget "CustomKeyBoard" */;
+			buildPhases = (
+				34897B999CC78168FFD0B9F2 /* [CP] Check Pods Manifest.lock */,
+				91B6B4051EAEE817009139C6 /* Sources */,
+				91B6B4061EAEE817009139C6 /* Frameworks */,
+				91B6B4071EAEE817009139C6 /* Resources */,
+				7960350FF2FC9157B5546C56 /* [CP] Embed Pods Frameworks */,
+				97890F898F9702C524EE252E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyBoard;
+			productName = CustomKeyBoard;
+			productReference = 91B6B4091EAEE817009139C6 /* CustomKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B6B4011EAEE817009139C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CL;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "夜猫子";
+				TargetAttributes = {
+					91B6B4081EAEE817009139C6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LHRH7ZU3X2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91B6B4041EAEE817009139C6 /* Build configuration list for PBXProject "CustomKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91B6B4001EAEE817009139C6;
+			productRefGroup = 91B6B40A1EAEE817009139C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B6B4081EAEE817009139C6 /* CustomKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B6B4071EAEE817009139C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B6B4171EAEE817009139C6 /* LaunchScreen.storyboard in Resources */,
+				91B6B44C1EAEFAF0009139C6 /* Emoticons.bundle in Resources */,
+				91B6B4141EAEE817009139C6 /* Assets.xcassets in Resources */,
+				91B6B4121EAEE817009139C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34897B999CC78168FFD0B9F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7960350FF2FC9157B5546C56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomKeyBoard/Pods-CustomKeyBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97890F898F9702C524EE252E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomKeyBoard/Pods-CustomKeyBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B6B4051EAEE817009139C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B6B42B1EAEE9F1009139C6 /* CLPageControl.swift in Sources */,
+				91B6B43F1EAEF524009139C6 /* UIButton+Extensions.swift in Sources */,
+				91B6B4311EAEEA5E009139C6 /* CLKeyBoardFlowLayout.swift in Sources */,
+				91B6B40F1EAEE817009139C6 /* ViewController.swift in Sources */,
+				91B6B42F1EAEEA39009139C6 /* CLCustomKeyBoardCell.swift in Sources */,
+				91B6B4291EAEE9C5009139C6 /* CLCustomKeyBoard.swift in Sources */,
+				91B6B4471EAEFAE6009139C6 /* CLEmotionTool.swift in Sources */,
+				91B6B4351EAEEAAA009139C6 /* CLTextView.swift in Sources */,
+				91B6B4431EAEF57F009139C6 /* FFLabel.swift in Sources */,
+				91B6B40D1EAEE817009139C6 /* AppDelegate.swift in Sources */,
+				91B6B4401EAEF524009139C6 /* UILable+Emotion.swift in Sources */,
+				91B6B4331EAEEA82009139C6 /* CLKeyBoardToolBar.swift in Sources */,
+				91B6B4461EAEFAE6009139C6 /* CLCommon.swift in Sources */,
+				91B6B4411EAEF524009139C6 /* UILable+Extensions.swift in Sources */,
+				91B6B43A1EAEF2C5009139C6 /* NSString+Emoji.m in Sources */,
+				91B6B44B1EAEFAF0009139C6 /* CLEmotionModel.swift in Sources */,
+				91B6B42D1EAEEA17009139C6 /* CLKeyBoardCollertionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91B6B4101EAEE817009139C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B6B4111EAEE817009139C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91B6B4151EAEE817009139C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B6B4161EAEE817009139C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B6B4191EAEE817009139C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91B6B41A1EAEE817009139C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B6B41C1EAEE817009139C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27AD35DD45506AA639BFF49 /* Pods-CustomKeyBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LHRH7ZU3X2;
+				INFOPLIST_FILE = CustomKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chen.CustomKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CustomKeyBoard/Prefix.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91B6B41D1EAEE817009139C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F27B190A377A3AED0E6CC5 /* Pods-CustomKeyBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LHRH7ZU3X2;
+				INFOPLIST_FILE = CustomKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chen.CustomKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CustomKeyBoard/Prefix.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B6B4041EAEE817009139C6 /* Build configuration list for PBXProject "CustomKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B6B4191EAEE817009139C6 /* Debug */,
+				91B6B41A1EAEE817009139C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B6B41B1EAEE817009139C6 /* Build configuration list for PBXNativeTarget "CustomKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B6B41C1EAEE817009139C6 /* Debug */,
+				91B6B41D1EAEE817009139C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B6B4011EAEE817009139C6 /* Project object */;
+}
