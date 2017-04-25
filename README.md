@@ -32,7 +32,6 @@ return [recentEmotions, defaultEmotions, emojiEmotions, lxhEmotions]
 
 
 ## 反馈与建议
-- 微博：[@夜__猫_子](http://weibo.com/u/5022122368)
 - 邮箱：<873456034@qq.com>
 
 ---------
